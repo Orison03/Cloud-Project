@@ -47,7 +47,7 @@ function Navbar() {
         className={
           nav
             ? "hidden"
-            : "absolute bg-white w-full pl-4 flex-col justify-between drop md:hidden"
+            : "absolute bg-white w-full pl-4 flex-col justify-between drop-shadow md:hidden"
         }
       >
         <li className="py-4 text-lg font-normal tracking-wider">home</li>
