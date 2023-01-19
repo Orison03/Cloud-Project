@@ -56,7 +56,7 @@ function Navbar() {
         <li className="py-4 text-lg font-normal tracking-wider">pricing</li>
         <li className="py-4 text-lg font-normal tracking-wider">help</li>
         {/* btn container */}
-        <div className="font-family flex flex-col justify-between mb-16 mt-16 max-w-2xl items-center space-y-6">
+        <div className="font-family flex flex-col justify-between mb-16 mt-6 max-w-2xl items-center space-y-6">
           <button className="flex justify-center items-center w-[300px] hover:border-normal text-normal max-w-[350px]">
             sign in <AiOutlineRight className="pl-2 w-6 font-bold" />
           </button>
