@@ -10,7 +10,7 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="w-screen h-[80px] bg-white-200 z-10 fixed md:drop-shadow">
+    <div className="relative w-screen h-[80px] bg-white-200 z-10 md:drop-shadow">
       <div className="flex justify-between px-2 w-full h-full items-center">
         {/* logo */}
         <div className="flex items-center">
@@ -55,7 +55,7 @@ function Navbar() {
         <li className="py-4 text-lg font-normal tracking-wider">contact</li>
         <li className="py-4 text-lg font-normal tracking-wider">pricing</li>
         <li className="py-4 text-lg font-normal tracking-wider">help</li>
-        <div className="font-family flex  justify-between my-4 max-w-xl">
+        <div className="font-family flex  justify-between my-10 max-w-xl">
           <button className="flex justify-center items-center w-[350px] hover:border-normal text-normal max-w-[250px]">
             sign in <AiOutlineRight className="pl-2 w-6 font-bold" />
           </button>
