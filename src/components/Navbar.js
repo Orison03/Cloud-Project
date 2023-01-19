@@ -55,11 +55,12 @@ function Navbar() {
         <li className="py-4 text-lg font-normal tracking-wider">contact</li>
         <li className="py-4 text-lg font-normal tracking-wider">pricing</li>
         <li className="py-4 text-lg font-normal tracking-wider">help</li>
-        <div className="font-family flex  justify-between my-10 max-w-xl">
-          <button className="flex justify-center items-center w-[350px] hover:border-normal text-normal max-w-[250px]">
+        {/* btn container */}
+        <div className="font-family flex flex-col justify-between mb-32 mt-10 max-w-2xl items-center space-y-6">
+          <button className="flex justify-center items-center w-[350px] hover:border-normal text-normal max-w-[350px]">
             sign in <AiOutlineRight className="pl-2 w-6 font-bold" />
           </button>
-          <button className="flex justify-center items-center w-[350px] hover:border-normal text-normal max-w-[250px]">
+          <button className="flex justify-center items-center w-[350px] hover:border-normal text-normal max-w-[350px] bg-white text-purple-500 hover:text-white">
             sign up <IoIosArrowUp className="pl-2 w-6 font-bold" />
           </button>
         </div>

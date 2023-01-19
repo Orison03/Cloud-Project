@@ -7,7 +7,7 @@ function Services() {
   return (
     <div className="mx-auto w-[80%] max-w-4xl">
       {/* data services */}
-      <div className="md:flex flex-col items-center bg-purple-500 drop-shadow-lg text-white  rounded-xl py-8 mb-8">
+      <div className="md:flex flex-col items-center bg-purple-500 drop-shadow-xl text-white  rounded-xl pt-4 py-6 mb-8 px-2">
         <h1 className="pb-6 text-center text-xl tracking-wider sm:tracking-[1px]">
           Data Services
         </h1>
