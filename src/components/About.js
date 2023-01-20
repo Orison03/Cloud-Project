@@ -21,19 +21,19 @@ function About() {
         {/* about grid block */}
         <div className="grid text-center mt-6 md:grid-cols-3">
           {/* start of block */}
-          <div className="w-[80%] mx-auto bg-purple-500 py-8 mb-4 md:w-[80%] capitalize rounded-lg">
+          <div className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 md:w-[90%] capitalize rounded-lg">
             <p className="text-4xl text-white">100%</p>
             <p className="tracking-wider text-white">completion</p>
           </div>
           {/* end of block */}
           {/* start of block */}
-          <div className="w-[80%] mx-auto bg-purple-500 py-8 mb-4 capitalize md:w-[80%] rounded-lg">
+          <div className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 capitalize md:w-[90%] rounded-lg">
             <p className="text-4xl text-white">24/7</p>
             <p className="tracking-wider text-white">delivery</p>
           </div>
           {/* end of block */}
           {/* start of block */}
-          <div className="w-[80%] mx-auto bg-purple-500 py-8 mb-4 md:w-[80%] text-white capitalize rounded-lg">
+          <div className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 md:w-[90%] text-white capitalize rounded-lg">
             <p className="text-4xl">100k</p>
             <p className="tracking-wider">transactions</p>
           </div>
