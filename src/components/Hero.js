@@ -1,9 +1,11 @@
 import React from 'react'
 import BackgroundImg from "../assets/cyber-bg.png"
+import { motion } from "framer-motion";
+
 
 function Hero() {
   return (
-    <div className="w-full">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 3 }} transition={{duration: .75, ease: "linear"}} className="w-full">
       <div className="md:grid mt-20 mb-5 md:grid-cols-2">
         <div className="flex flex-col justify-between item-center mb-10 text-center mt-2 tracking-wide lg:mt-10">
           <p className="capitalize mt-10 mb-6 text-lg lg:text-2xl">
@@ -23,7 +25,7 @@ function Hero() {
         </div>
         {/* end of cloud image */}
       </div>
-    </div>
+    </motion.div>
   );
 }
 

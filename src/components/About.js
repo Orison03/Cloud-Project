@@ -1,10 +1,10 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React from "react"; 
+import Slide from "react-reveal/Slide";
 
 function About() {
   return (
     // cover or background
-    <Fade bottom big>
+     <Slide bottom>
       <div className="w-[80%] mx-auto border-none-500 flex flex-col py-10 my-[8%]">
         {/* description */}
         <div className="text-center">
@@ -40,7 +40,7 @@ function About() {
           {/* end of block */}
         </div>
       </div>
-    </Fade>
+    </Slide>
   );
 }
 
