@@ -1,11 +1,12 @@
-import React from "react"; 
+import React from "react";
 import Slide from "react-reveal/Slide";
+import { motion } from "framer-motion";
 
 function About() {
   return (
     // cover or background
-     <Slide bottom>
-      <div className="w-[80%] mx-auto border-none-500 flex flex-col py-10 my-[8%]">
+    <Slide bottom>
+      <div className="w-[80%] mx-auto border-none-500 flex flex-col py-10 my-[6%]">
         {/* description */}
         <div className="text-center">
           <h2 className="pb-4 text-lg font-semibold tracking-wide">
@@ -21,22 +22,31 @@ function About() {
         {/* about grid block */}
         <div className="grid text-center mt-6 md:grid-cols-3">
           {/* start of block */}
-          <div className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 md:w-[90%] capitalize rounded-lg">
+          <motion.div
+            whileHover={{ scale: 1.2 }}
+            className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 md:w-[90%] capitalize rounded-lg"
+          >
             <p className="text-4xl text-white">100%</p>
             <p className="tracking-wider text-white">completion</p>
-          </div>
+          </motion.div>
           {/* end of block */}
           {/* start of block */}
-          <div className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 capitalize md:w-[90%] rounded-lg">
+          <motion.div
+            whileHover={{ scale: 1.2 }}
+            className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 capitalize md:w-[90%] rounded-lg"
+          >
             <p className="text-4xl text-white">24/7</p>
             <p className="tracking-wider text-white">delivery</p>
-          </div>
+          </motion.div>
           {/* end of block */}
           {/* start of block */}
-          <div className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 md:w-[90%] text-white capitalize rounded-lg">
+          <motion.a
+            whileHover={{ scale: 1.2 }}
+            className="w-[100%] mx-auto bg-purple-500 py-8 mb-4 md:w-[90%] text-white capitalize rounded-lg"
+          >
             <p className="text-4xl">100k</p>
             <p className="tracking-wider">transactions</p>
-          </div>
+          </motion.a>
           {/* end of block */}
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import { IoIosArrowUp } from "react-icons/io";
 import { AiOutlineRight, AiOutlineClose } from "react-icons/ai";
-
+import Reveal from "react-reveal/Reveal";
 
 function Navbar() {
   const [nav, setNav] = useState(true);
@@ -43,28 +43,30 @@ function Navbar() {
           )}
         </div>
       </div>
-      <ul
-        className={
-          nav
-            ? "hidden"
-            : "absolute bg-white w-full pl-4 flex-col justify-between drop-shadow md:hidden"
-        }
-      >
-        <li className="py-4 text-lg font-normal tracking-wider">home</li>
-        <li className="py-4 text-lg font-normal tracking-wider">about</li>
-        <li className="py-4 text-lg font-normal tracking-wider">contact</li>
-        <li className="py-4 text-lg font-normal tracking-wider">pricing</li>
-        <li className="py-4 text-lg font-normal tracking-wider">help</li>
-        {/* btn container */}
-        <div className="font-family flex flex-col justify-between mb-16 mt-6 max-w-2xl items-center space-y-6">
-          <button className="flex justify-center items-center w-[300px] hover:border-normal text-normal max-w-[350px]">
-            sign in <AiOutlineRight className="pl-2 w-6 font-bold" />
-          </button>
-          <button className="flex justify-center items-center w-[300px] hover:border-normal text-normal max-w-[350px] bg-white text-purple-500 hover:text-white">
-            sign up <IoIosArrowUp className="pl-2 w-6 font-bold" />
-          </button>
-        </div>
-      </ul>
+      <Reveal effect="fadeInUp">
+        <ul
+          className={
+            nav
+              ? "hidden"
+              : "absolute bg-white w-full pl-4 flex-col justify-between drop-shadow md:hidden"
+          }
+        >
+          <li className="py-4 text-lg font-normal tracking-wider">home</li>
+          <li className="py-4 text-lg font-normal tracking-wider">about</li>
+          <li className="py-4 text-lg font-normal tracking-wider">contact</li>
+          <li className="py-4 text-lg font-normal tracking-wider">pricing</li>
+          <li className="py-4 text-lg font-normal tracking-wider">help</li>
+          {/* btn container */}
+          <div className="font-family flex flex-col justify-between mb-16 mt-6 max-w-2xl items-center space-y-6">
+            <button className="flex justify-center items-center w-[300px] hover:border-normal text-normal max-w-[350px]">
+              sign in <AiOutlineRight className="pl-2 w-6 font-bold" />
+            </button>
+            <button className="flex justify-center items-center w-[300px] hover:border-normal text-normal max-w-[350px] bg-white text-purple-500 hover:text-white">
+              sign up <IoIosArrowUp className="pl-2 w-6 font-bold" />
+            </button>
+          </div>
+        </ul>
+      </Reveal>
     </div>
   );
 }
