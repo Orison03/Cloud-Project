@@ -9,7 +9,7 @@ function AllInOne() {
         <h1 className="text-center capitalize font-slant font-extrabold text-black mb-6 text-2xl tracking-wider md:text-4xl">
           All-in-one platform
         </h1>
-        <p className="text-center w-[80%] mx-auto">
+        <p className="w-[95%] mx-auto">
           Detailed information about cloud costs may not be easily accessible. A
           customer might search across regions, accounts and numerous attached
           cloud services to calculate the total cost for just one individual
