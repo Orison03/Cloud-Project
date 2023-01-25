@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import About from "./components/About";
 import Support from "./components/Support";
+import AllInOne from "./components/AllInOne";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Services/>
       <About/>
       <Support/>
+      <AllInOne/>
     </div>
   );
 }
