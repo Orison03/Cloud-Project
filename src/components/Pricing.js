@@ -4,7 +4,7 @@ import { BiAlarm } from "react-icons/bi";
 function Pricing() {
   return (
     <main className="w-full h-[520px] bg-purple-800 mb-8">
-      <div className="w-[80%] text-white mx-auto py-12">
+      <div className="w-[90%] text-white mx-auto py-12">
         <h1 className="text-center uppercase text-3xl font-slant pb-6 tracking-wide md:text-4xl">
           pricing
         </h1>
@@ -17,7 +17,7 @@ function Pricing() {
           must adjust their monitoring strategies. Effective cloud monitoring is
           a complex task.{" "}
         </p>
-        <section className="w-[80%] mb-8 md:grid grid-cols-2 gap-4 absolute">
+        <section className="w-[90%] mb-8 md:grid grid-cols-2 gap-4 absolute">
           {/* card one */}
           <div className="bg-white w-[90%] h-[410px] block mx-auto rounded-lg drop-shadow-lg mb-12 pt-2 md:h-[450px]">
             <p className="uppercase text-white text-xs ml-4 rounded-full bg-purple-500 w-24 h-8 flex items-center justify-center font-medium tracking-wide mb-5">
