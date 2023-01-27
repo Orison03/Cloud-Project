@@ -5,7 +5,7 @@ import Cards from "./Cards";
 
 function Support() {
   return (
-    <>
+    <div name="support">
       {/* start of support */}
       <main className="w-full h-[400px] mt-10 mb-12 mx-auto">
         <div className="w-full h-[400px] bg-gray-900/50 relative">
@@ -16,7 +16,7 @@ function Support() {
           />
           <Fade left big className="text-black">
             <h1 className="absolute top-16 text-white left-10 uppercase tracking-wide text-4xl font-slant md:left-32">
-              Contact
+              support
             </h1>
             <p className="absolute top-32 text-white left-10 tracking-wide text-xl leading-6 md:text-2xl md:left-32">
               Finding the right team
@@ -33,7 +33,7 @@ function Support() {
       </main>
       {/* end of first support */}
       <Cards/>
-    </>
+    </div>
   );
 }
 

@@ -5,9 +5,9 @@ import { BiSupport, BiBriefcase } from "react-icons/bi";
 
 function Cards() {
   return (
-    <>
+    <div name="platform">
       <h1 className="mb-4 font-slant text-center text-2xl uppercase tracking-wider border-bottom border-black font-extrabold sm:text-4xl">
-        Support
+        platform
       </h1>
       <div className="grid lg:grid-cols-3">
         <div className="w-[90%] mx-auto bg-white rounded-lg drop-shadow-lg mt-6 mb-24 pb-16">
@@ -62,7 +62,7 @@ function Cards() {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

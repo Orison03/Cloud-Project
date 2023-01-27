@@ -6,7 +6,7 @@ function About() {
   return (
     // cover or background
     <Slide bottom>
-      <div className="w-[80%] mx-auto border-none-500 flex flex-col py-10 my-[6%]">
+      <div name="about" className="w-[80%] mx-auto border-none-500 flex flex-col py-10 my-[6%]">
         {/* description */}
         <div className="text-center">
           <h2 className="pb-4 text-lg font-semibold tracking-wide">

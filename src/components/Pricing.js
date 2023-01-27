@@ -3,7 +3,7 @@ import { BiAlarm } from "react-icons/bi";
 
 function Pricing() {
   return (
-    <main className="w-full h-[520px] bg-purple-800 mb-8 relative">
+    <main name="pricing" className="w-full h-[520px] bg-purple-800 mb-8 relative">
       <div className="w-[95%] text-white mx-auto py-12">
         <h1 className="text-center uppercase text-3xl font-slant pb-6 tracking-wide md:text-4xl">
           pricing

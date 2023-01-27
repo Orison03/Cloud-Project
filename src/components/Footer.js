@@ -83,20 +83,20 @@ function Footer() {
       {/* icons section */}
       <section className="text-white pt-8 mx-auto w-[90%] text-sm">
         <p className="text-center">
-          2023 Workflow, ORISON did it. All rights reserved{" "}
+          2023 Workflow, ORISON did it. All rights reserved
         </p>
         {/* icons */}
         <div className="flex justify-between items-center w-[200px] mx-auto mt-6 text-lg">
-          <a href="">
+          <a href="#">
             <FaFacebook />
           </a>
-          <a href="">
+          <a href="#">
             <FaGithub />
           </a>
-          <a href="">
+          <a href="#">
             <FaLinkedin />
           </a>
-          <a href="">
+          <a href="#">
             <FaInstagram />
           </a>
         </div>
